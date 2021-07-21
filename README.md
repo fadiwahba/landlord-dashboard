@@ -4,7 +4,7 @@ Thanks for taking the time to do our front-end coding test. This will have two p
 
 1. A [task](#frontend) to create a create a list of payable transactions displayed in a react-based website. This front will depend on a running backend API which we have provided.
 
-2. Some [follow-up questions](./FOLLOW-UP.md) (please commit the follow-up question answers to at least one of the front or back end repositories).
+2. Some [follow-up questions](./FOLLOW-UP.md) (please commit the follow-up question answers to your own provided repository).
 
 **NOTE:** If you browse our github organisation you should have an invitations for you, these will give you access to a repository named something like ls-recruitment-{YOUR NAME}. If you do not see the invitation or cannot see any repositories with your name on them, please contact us. (Please do not branch or make PRs for the repositories that do not have your name on them).
 
