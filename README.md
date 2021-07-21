@@ -2,7 +2,7 @@
 
 Thanks for taking the time to do our front-end coding test. This will have two parts:
 
-1. A [task](#frontend) to create a create a list of payable transactions displayed in a react-based website. This front will depend on a running backend API which we have provided.
+1. A [task](#frontend) to create a create a list of payable transactions displayed in a react-based website. This front will integrate with a simulated backend API which is bundled with the provided web app skeleton.
 
 2. Some [follow-up questions](./FOLLOW-UP.md) (please commit the follow-up question answers to your own provided repository).
 
