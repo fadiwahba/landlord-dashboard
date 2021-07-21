@@ -61,7 +61,7 @@ This exposes two routes;
 
 To start the frontend client run the following commands.
 
-- `npm install` - This will fetch the required node modules for the website to run (and for the other scripts below).
+- `npm install` - This will fetch the required node modules for the website to run.
 - `npm run dev` - This will start the application for development.  
   
 The application will start at [https://localhost:3000/](https://localhost:3000/)
