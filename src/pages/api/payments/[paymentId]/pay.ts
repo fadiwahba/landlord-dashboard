@@ -1,12 +1,15 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 import { ErrorResponse } from '../../../../api'
 import { Payments } from '../../../data/payment'
+import { delay } from '../../delay';
 
-export default function handler(
+export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse<ErrorResponse>
 ) {
   if (req.method === 'PATCH') {
+    await delay(1000);
+
     var payment = Payments.instance.find(p => p.id === req.query.paymentId);
 
     if (payment) {
