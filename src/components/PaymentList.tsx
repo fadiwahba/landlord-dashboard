@@ -1,7 +1,12 @@
 import styles from "../../styles/PaymentList.module.css";
+import { Payment } from "../pages/data/payment";
 import PaymentItem from "./PaymentItem";
 
-const PaymentList = ({ paymentList }) => {
+const PaymentList = ({ paymentList, onPayHandler }) => {
+  const onPay = (payment: Payment) => {
+    onPayHandler(payment);
+  };
+
   return (
     <table className="table rounded-border">
       <thead>
@@ -15,7 +20,13 @@ const PaymentList = ({ paymentList }) => {
       </thead>
       <tbody>
         {paymentList.map((paymentItem) => {
-          return <PaymentItem key={paymentItem.id} paymentItem={paymentItem} />;
+          return (
+            <PaymentItem
+              key={paymentItem.id}
+              paymentItem={paymentItem}
+              onPayHandler={(payment) => onPay(payment)}
+            />
+          );
         })}
       </tbody>
     </table>

@@ -34,8 +34,61 @@
 
 .status {
 }
+
 .amount {
   font-weight: bold;
 }
 .action {
+}
+
+.flex_space_between {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.modal_pre_content {
+  background-color: #e3f2fd;
+  font-size: 1.75rem;
+  font-weight: thin;
+  padding: 0 2rem;
+}
+
+.modal_content {
+  font-size: 1.75rem;
+  font-weight: thin;
+  padding: 2rem;
+}
+.modal_amount {
+  color: #666;
+}
+.modal_amount_value {
+  color: #283593;
+  font-weight: bold;
+}
+
+.modal_total_amount {
+  color: #283593;
+}
+
+.modal_total_amount_value {
+  color: #283593;
+  font-weight: bold;
+  background-color: #e3f2fd;
+  border-radius: 2rem;
+  padding: 0.5rem 2rem;
+}
+
+.text_center_gray {
+  text-align: center;
+  color: #666;
+  padding: 1rem 0;
+}
+
+.modal_disclaimer {
+  font-size: 1rem;
+  font-weight: thin;
+  text-align: center;
+  padding: 1rem 0;
 }
