@@ -25,6 +25,6 @@
 
 .nav > a:hover,
 .nav > a.active {
-  border-left: 6px solid #1976d2;
+  border-left: 6px solid #007bff;
   background-color: #e3f2fd;
 }
