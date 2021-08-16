@@ -1,5 +1,4 @@
 import styles from "../../styles/PaymentItem.module.css";
-import Link from "next/link";
 import dayjs from "dayjs";
 import { Payment } from "../pages/data/payment";
 import { useState } from "react";

@@ -176,6 +176,36 @@ td {
   cursor: pointer;
 }
 
+.btn_lg {
+  font-size: 1.5rem;
+  padding: 1rem 2.5rem;
+}
+
+.text_thin {
+  font-weight: 300;
+}
+
+.text_lg {
+  font-size: 2rem;
+}
+
+.text-center {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
 * {
   box-sizing: border-box;
 }
